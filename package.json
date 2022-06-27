@@ -8,7 +8,9 @@
     "build": "tsc"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@jakobinn"
+    "registry": "https://npm.pkg.github.com/@jakobinn",
+    "access": "restricted",
+    "directory": "dist"
   },
   "keywords": [],
   "author": "",
