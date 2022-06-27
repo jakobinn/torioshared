@@ -1,5 +1,5 @@
 {
-  "name": "@jakobinn/torioshared",
+  "name": "@toriopackages/torioshared",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@jakobinn"
+    "registry": "https://npm.pkg.github.com/@toriopackages"
   },
   "keywords": [],
   "author": "",
