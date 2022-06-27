@@ -4,7 +4,6 @@ import { joiStringMessage } from '../data/joiMessages';
 import { militaryTimeRegex } from '../data/validations';
 import { TorioImage } from '../images';
 // import { getLinkRegexExpression } from '../data/validations';
-
 export interface event {
 	name: string;
 	description: string;
@@ -15,7 +14,6 @@ export interface event {
     fee: string;
 	image?: TorioImage,
 }
-
 export interface manageEventQuery extends event {
 	modal?: any,
     id?: string;
