@@ -23,6 +23,9 @@ export interface getEventQuery {
 	id: string;
     modal: any;
 }
+
+
+
 export const eventSchema = Joi.object({
 	name: Joi.string().max(30).required().messages({
 		...joiStringMessage({name: 'Name (English)', isRequired: true}),
